@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RhythmWave Music Label</title>
+</head>
+<body>
+
+<header>
+    <h1>RhythmWave Music Label</h1>
+    <p>Where Beats Meet the World</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#artists">Artists</a></li>
+        <li><a href="#releases">New Releases</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</nav>
+
+<main>
+    <!-- Artists Section -->
+    <section id="artists">
+        <h2>Our Top Artists</h2>
+        <ul>
+            <li>DJ Sonic</li>
+            <li>Melody Rae</li>
+            <li>BeatzMaster</li>
+            <li>Lyrica Flow</li>
+        </ul>
+    </section>
+
+    <!-- New Releases Table -->
+    <section id="releases">
+        <h2>Latest Releases</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Album</th>
+                    <th>Artist</th>
+                    <th>Release Date</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Midnight Vibes</td>
+                    <td>DJ Sonic</td>
+                    <td>2025-07-15</td>
+                    <td>Electronic</td>
+                </tr>
+                <tr>
+                    <td>Heart Strings</td>
+                    <td>Melody Rae</td>
+                    <td>2025-06-01</td>
+                    <td>Pop</td>
+                </tr>
+                <tr>
+                    <td>Urban Flow</td>
+                    <td>Lyrica Flow</td>
+                    <td>2025-05-10</td>
+                    <td>Hip Hop</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Listen & Watch</h2>
+        <h3>Featured Track</h3>
+        <audio controls>
+            <source src="sample-track.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Music Video</h3>
+        <video width="480" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+            <label for="genre">Favorite Genre:</label>
+            <select id="genre" name="genre" required>
+                <option value="">Select Genre</option>
+                <option>Pop</option>
+                <option>Hip Hop</option>
+                <option>Electronic</option>
+                <option>Rock</option>
+            </select>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 RhythmWave Music Label | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
 
